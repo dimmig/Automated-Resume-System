@@ -1,8 +1,7 @@
 # Automated Resume System
 
-![Project Logo](https://via.placeholder.com/150)
+![Project Logo](assets/cv.png)
 
-[![Build Status](https://img.shields.io/travis/com/your-username/your-repo.svg?style=flat-square)](https://travis-ci.com/your-username/your-repo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 An automated system to generate and customize resumes, tailored for different job applications.
@@ -13,18 +12,14 @@ An automated system to generate and customize resumes, tailored for different jo
 
 ## Features
 
--   **Dynamic Content:** Automatically populate resume sections from a data source.
--   **Custom Styling:** Apply different CSS styles to your resume for a unique look.
--   **Multiple Formats:** (Describe if it supports PDF, HTML, etc.)
--   **GCP Integration:** Leverages Google Cloud Platform for (describe the functionality, e.g., data storage, processing).
+- **Dynamic Content:** Automatically populate resume sections using your data source.  
+- **Up-to-date Job Offers:** Fetch active job listings from any service via API.  
+- **Automatic HR Contact Discovery:** Scrape company websites to find HR or decision-maker emails.  
+- **Automated CV Generation:** Create a tailored CV for each job application.  
+- **Custom Styling:** Apply unique CSS styles to your resume for a distinct look.  
 
-## Tech Stack
 
--   **Backend:** Python
--   **Cloud:** Google Cloud Platform
--   **Styling:** CSS
-
-## Installation
+## How to use 
 
 Follow these steps to set up the project locally.
 
@@ -58,10 +53,6 @@ cp .env.example .env
 
 Now, open `.env` and add your configuration values.
 
-**5. Configure GCP Service Account:**
-
-Place your Google Cloud Platform service account key file in the root directory and name it `gcp-service-key.json`.
-
 ## Usage
 
 To run the main script, execute the following command:
@@ -70,17 +61,9 @@ To run the main script, execute the following command:
 python run.py
 ```
 
-(Add more details on command-line arguments or different ways to run the script if applicable.)
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request.
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
 
 ## License
 
@@ -88,6 +71,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
-
-Project Link: [https://github.com/your-username/automated-resume-system](https://github.com/your-username/automated-resume-system)
+[galagan.dm@gmail.com](mailto:galagan.dm@gmail.com)
