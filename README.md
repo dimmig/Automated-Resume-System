@@ -9,7 +9,7 @@ An automated system to generate and customize resumes, tailored for different jo
 
 ## Demo
 
-[![Watch the demo](https://via.placeholder.com/560x315)](assets/demo.gif)
+![Automated Resume System Demo](assets/demo.gif)
 
 ## Features
 
