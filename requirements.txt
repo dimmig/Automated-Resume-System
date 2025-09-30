@@ -1,0 +1,15 @@
+requests~=2.32.5
+pandas
+lxml
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+dotenv~=0.9.9
+openai~=1.109.1
+weasyprint
+pypandoc
+markdown2~=2.5.4
+google~=3.0.0
+python-dotenv~=1.1.1
+xhtml2pdf~=0.2.17

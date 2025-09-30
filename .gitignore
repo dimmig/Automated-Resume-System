@@ -1,0 +1,5 @@
+.gcp-service-key.json
+.env
+.env.local
+.venv
+.idea
