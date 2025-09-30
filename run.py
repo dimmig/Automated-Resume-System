@@ -89,6 +89,7 @@ def load_job_offers(max_items=100):
 
     payload = {
         "urls": [
+            # Example, you can change to a different LinkedIn URL
             "https://www.linkedin.com/jobs/search/?currentJobId=4305981446&f_E=2%2C3%2C4&f_T=9%2C25201%2C39%2C25170"
             "%2C25194%2C3172%2C24%2C10738%2C25169%2C30006%2C191%2C17265&f_TPR=r604800&f_WT=2&keywords=remote&origin"
             "=JOB_SEARCH_PAGE_JOB_FILTER&sortBy=R"
