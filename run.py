@@ -80,7 +80,7 @@ def load_job_offers(max_items=100):
         print("No API key provided")
         sys.exit(1)
 
-    url = f"https://api.apify.com/v2/acts/hKByXkMQaC5Qt9UMN/run-sync-get-dataset-items"
+    url = os.getenv("APIFY_ACTOR_URL")
     headers = {
         'Content-Type': 'application/json',
         'Accept': 'application/json',
